@@ -19,7 +19,7 @@ public class ConnectToServer : Photon.MonoBehaviour
 
     public virtual void OnConnectedToMaster()
     {
-        Debug.Log("OnConnectedToMaster() was called by PUN. Now this client is connected and could join a room. Calling: PhotonNetwork.JoinRandomRoom();");
+        Debug.Log("OnConnectedToMaster() was called by PUN.");
         //PhotonNetwork.JoinRandomRoom();
     }
 }
